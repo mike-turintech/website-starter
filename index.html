@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern website starter with clean UI and responsive design">
+    <title>Website Starter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Website Starter</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Your Website Starter</h1>
+                <p>A modern, responsive foundation for your next web project</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About This Starter</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Modern Design</h3>
+                        <p>Clean, contemporary styling that works across all devices</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Responsive</h3>
+                        <p>Mobile-first approach ensuring great experience on any screen</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Fast & Light</h3>
+                        <p>Optimized for performance with minimal dependencies</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Features</h2>
+                <ul class="feature-list">
+                    <li>Semantic HTML5 structure</li>
+                    <li>CSS Grid and Flexbox layout</li>
+                    <li>Interactive JavaScript components</li>
+                    <li>Mobile-responsive navigation</li>
+                    <li>SEO-friendly markup</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Website Starter. Built with modern web standards.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
